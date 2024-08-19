@@ -5,7 +5,8 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "tsc",
-    "start:dev": "cross-env ANCHOR_PROVIDER_URL=https://api.mainnet-beta.solana.com ANCHOR_WALLET=constants/wallet/wallet.json node ./dist/server.js"
+    "start:dev": "cross-env ANCHOR_PROVIDER_URL=https://api.mainnet-beta.solana.com ANCHOR_WALLET=constants/wallet/wallet.json node ./dist/server.js",
+    "generate-wallet": "node ./dist/utils/generate-wallet.js"
   },
   "keywords": [],
   "author": "",
