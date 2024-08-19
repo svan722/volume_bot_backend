@@ -1,0 +1,40 @@
+{
+  "name": "aix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "cross-env ANCHOR_PROVIDER_URL=https://api.mainnet-beta.solana.com ANCHOR_WALLET=constants/wallet/wallet.json node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@orca-so/common-sdk": "^0.6.2",
+    "@orca-so/whirlpools-sdk": "^0.13.5",
+    "@solana/web3.js": "^1.95.2",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@uniswap/sdk-core": "^5.3.1",
+    "@uniswap/v3-sdk": "^3.13.1",
+    "bn.js": "^5.2.1",
+    "cors": "^2.8.5",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.4.0",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

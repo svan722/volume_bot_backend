@@ -1,0 +1,4 @@
+.env
+constants/wallet/wallet.json
+node_modules
+dist

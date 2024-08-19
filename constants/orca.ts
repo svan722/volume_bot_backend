@@ -1,0 +1,2 @@
+export const MAINNET_WHIRLPOOL_CONTRACT =
+  "2LecshUwdy9xi7meFgHtFJQNSKk4KdTrcpvaB56dP2NQ";
